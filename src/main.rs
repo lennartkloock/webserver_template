@@ -1,6 +1,8 @@
 /*
- * Copyright (c) 2020, PockelHockel, All rights reserved.
+ * Copyright (c) 2021, PockelHockel, All rights reserved.
  */
+
+//! TODO: `rustup default nightly`
 
 #![feature(proc_macro_hygiene, decl_macro)]
 
