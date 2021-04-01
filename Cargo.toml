@@ -1,17 +1,21 @@
 [package]
 name = "webserver_template"
 version = "0.1.0"
-authors = ["PockelHockel <pockelhockel1@gmail.com>"]
+authors = [] #Fixme
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-rocket = { version = "0.4", features = ["tls"] }
+tokio = "1.2.0"
 serde = { version = "1.0", features = ["derive"] }
 
+[dependencies.rocket]
+git = "https://github.com/SergioBenitez/Rocket"
+branch = "master"
+
 [dependencies.rocket_contrib]
-version = "0.4"
+git = "https://github.com/SergioBenitez/Rocket"
+branch = "master"
 default_features = false
-# Add your database type as described here https://rocket.rs/v0.4/guide/state/#databases
 features = ["handlebars_templates", "json", "serve"]
