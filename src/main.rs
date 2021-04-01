@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2021, PockelHockel, All rights reserved.
+ * Copyright (c) 2021, Lennart Kloock, All rights reserved.
  */
 
 #[macro_use]
