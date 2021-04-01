@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2021, Lennart Kloock, All rights reserved.
- */
-
 #[macro_use]
 extern crate rocket;
 #[macro_use]
