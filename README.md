@@ -4,7 +4,6 @@ It contains a `Hello World!` example and the dependencies to immediatly start co
 The dependencies included are:
 - `rocket 0.5.0-rc.1` with `json` and `secrets` features enabled
 - `rocket_dyn_templates 0.1.0-rc.1` with `handlebars` feature enabled
-- `serde 1.0` with `derive` feature enabled
 
 ## Useful links
 - [Rocket.toml configuration file](https://rocket.rs/v0.5-rc/guide/configuration/#rockettoml)
